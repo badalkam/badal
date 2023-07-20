@@ -1,22 +1,4 @@
-table {
-    /*
-    width: 100%;
-    border-style: solid;
-    width: 72.25%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 15%;
-   
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-color: aquamarine;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: black;
-    */
-}
+
 #table_task2{
     width: 100%;
     background-color: aquamarine;  
@@ -30,53 +12,36 @@ th {
     font-weight: bold;
     border-style: solid;
     border-radius: 10px;
-
 }
 
 .task2_td {
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 
-#task2{
-    
-    border-style: solid;
-    width: 70%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 15%;
-    border-radius: 5px;
-    border-color: black;
-}
-#task3 {
-    border-style: solid;
-    width: 70%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 15%;
-    border-radius: 5px;
-}
-#task5 {
-    border-style: solid;
-    width: 70%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 15%;
-    border-radius: 5px;
-}
-#task7 {
-    border-style: solid;
-    width: 70%;
-    padding: 15px;
-    margin-top: 10px;
-    margin-left: 15%;
-    border-radius: 5px;
-    background-color: aliceblue;
-}
 #task7_form {
-    background-color: aliceblue;
+    
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
+}
+.primary{
+    border-style: solid;
+    width: 70%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+.list{
+    
+    list-style-type:none;
+    text-decoration: none;
+}
+.nav-sec{
+    background-color: aquamarine;
 
+}
+.nav-pri{
+    background-color: rgb(215, 134, 12);
 }
 

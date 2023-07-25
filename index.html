@@ -40,28 +40,28 @@
 
         <div id="task3" class="primary">
             <h2> Task : 3</h2>
-            <ul>
-                <li> Coffee</li>
-                <li> Tea</li>
-                <ul>
-                    <li>Black Tea</li>
-                    <li>Green Tea</li>
+            <ul id="outer-ul">
+                <li class="outer-ul"> Coffee</li>
+                <li class="outer-ul"> Tea</li>
+                <ul id="inner-ul">
+                    <li class="inner-ul">Black Tea</li>
+                    <li class="inner-ul" >Green Tea</li>
                 </ul>
 
-                <li> Milk</li>
+                <li class="outer-ul"> Milk</li>
             </ul>
 
         </div>
 
         <div id="task5" class="primary">
             <h2> Task : 5</h2>
-            <h1> Link to an Email Address </h1>
-            <p>
+            <h1 class="line"> Link to an Email Address </h1>
+            <p class="line">
                 To creat a link that opens in the user's email program (to let them send new email),use mailto :inside
                 the
                 attribute
             </p>
-            <p><a href="mailto:badal@gmail.com">Send email</a></p>
+            <p class="line"><a href="mailto:badal@gmail.com">Send email</a></p>
         </div>
         <div id="task7" class="primary">
             <h2> Task : 7</h2>
@@ -129,6 +129,21 @@
               <input  class="logIn-form-line" type="checkbox" placeholder="" name="logIn" id="logIn">Remember Me</p> 
              <input class="logIn-form-line" id="cancel" type="button" style="color: white ;background-color: red; border-radius: 5px;" value="Cancel"> <a href="#">forgot Password</a>      
             </div>
+        </div>
+        <div id="task6" class="layout-task6">
+            <h2>    Task : 6</h2>
+            <br>
+            <nav> 
+                <li><a href="#"><input id="button1"  type="button" class="task6-button" value="button1" ></a></li>
+                <li> <a href="#"><input id="button2"  type="button"  class="task6-button" value="button2" value="button2"></a></li>
+                <li><a href="#"><input id="button3" type="button" class="task6-button" value="button3"  value="button3"></a></li>
+                <li><a href="#"><input id="button4"  type="button" class="task6-button" value="button4"  value="button4"></a></li>
+            </nav>
+            <div>
+
+            </div>
+            
+             
         </div>
     </div>
 

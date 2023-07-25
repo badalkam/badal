@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#task10{
+    background-color: rgb(221, 237, 77);  
+}
+
+#task10_navBar{ 
+    width: 30%;
+    float: left;
+    margin-top: 0px;
+    height: 100%;
+}
+#task10_content{
+    margin-top: 0px;
+    width: 70%;
+    height: 100%;
+    float: right;
+    
+}
+.line{
+    margin-top: 20px;
+    margin-left: 10px;
+}

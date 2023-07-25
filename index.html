@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
     <title>Ethnus Task</title>
 </head>
 
@@ -20,7 +21,7 @@
                 </tr>
                 <tr>
                     <td class="task2_td"> Jill</td>
-                    <td  class="task2_td"> Smith</td>
+                    <td class="task2_td"> Smith</td>
                     <td class="task2_td"> 50</td>
                 </tr>
                 <tr>
@@ -38,7 +39,7 @@
         </div>
 
         <div id="task3" class="primary">
-        <h2> Task : 3</h2>
+            <h2> Task : 3</h2>
             <ul>
                 <li> Coffee</li>
                 <li> Tea</li>
@@ -75,7 +76,8 @@
                         <td><input type="text"> </td>
                     </tr>
                     <tr>
-                        <td><label>Password:</label></td></td>
+                        <td><label>Password:</label></td>
+                        </td>
                         <td> <input type="password"></td>
                     </tr>
                     <tr>
@@ -93,29 +95,41 @@
                     <tr>
                         <td><label for="gender">Gender:</label></td>
                         <td><select name="gender">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="other">Other</option>
-                        </select> </td>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select> </td>
                     </tr>
-                    
+
                 </table>
                 <input type="submit" value="Submit">
             </form>
         </div>
         <div id="task4" class="primary">
             <h2>Task : 4</h2>
-            <nav>
-                <ul>
-                    <li class="list nav-pri"><a class="list" href="#">Home </a></li> 
-                    <li class="list nav-sec"><a class="list" href="#">Java</a></li> 
-                    <li class="list nav-sec"><a class="list" href="#">CSS</a></li> 
-                    <li class="list nav-sec"><a class="list" href="#">HTML</a></li> 
-                    <li class="list nav-sec"><a class="list" href="#">Bootstrap</a></li> 
-                </ul>
+            <nav style="background-color: aquamarine;">
+
+                <li class="list nav-pri"><a class="list" href="#">Home </a></li>
+                <li class="list nav-sec"><a class="list" href="#">Java</a></li>
+                <li class="list nav-sec"><a class="list" href="#">CSS</a></li>
+                <li class="list nav-sec"><a class="list" href="#">HTML</a></li>
+                <li class="list nav-sec"><a class="list" href="#">Bootstrap</a></li>
+
             </nav>
         </div>
-
+        <div id="task11" class="primary">
+            <h2>Task : 11</h2>
+            <div id="logIn">
+              <img id="profileImage"  src="./profile.png" alt="profile_pic">
+              <p  class="logIn-form-line"  ><label for="username">Username</label></p>
+              <p  class="logIn-form-line " ><input type="text" placeholder="username"></p>
+              <p  class="logIn-form-line" ><label for="password">Password</label></p>
+              <p  class="logIn-form-line" ><input style="height: 30px;" type="password"  placeholder="password"></p>
+              <p  class="logIn-form-line" ><input type="button" style="background-color: green; color: white;" value="LogIn"></p>
+              <input  class="logIn-form-line" type="checkbox" placeholder="" name="logIn" id="logIn">Remember Me</p> 
+             <input class="logIn-form-line" id="cancel" type="button" style="color: white ;background-color: red; border-radius: 5px;" value="Cancel"> <a href="#">forgot Password</a>      
+            </div>
+        </div>
     </div>
 
 </body>
